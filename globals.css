@@ -1,0 +1,98 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.hidden-checkbox {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.header {
+  padding: 10px;
+  margin-left: 50px;
+  font-size: 60px;
+}
+
+.avg-price-div,
+.change-price-div {
+  line-height: 0.5;
+}
+
+.avg-price-div {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.change-price-div {
+  font-size: 25px;
+}
+
+.city-div,
+.city-div-style {
+  padding-left: 150px;
+}
+
+.city-div-style {
+  margin-left: 100px;
+}
+
+.city-name,
+.city-name-style {
+  font-size: 70px;
+}
+
+.city-name-h2 {
+  border-bottom: 3px solid #94d67d;
+  width: 600px;
+}
+
+#citySelect {
+  text-align: center;
+}
+
+.city-button {
+  border: 1px solid white;
+  width: 150px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.city-button:hover,
+.active {
+  background-color: #94d67d;
+  color: #000;
+  border: 1px solid black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.data-section {
+  flex: 1;
+}
+
+.city-image {
+  width: 800px;
+  height: 600px;
+  border-top-left-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.city-name-style {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.avg-price-style {
+  display: inline-block;
+  margin: 0;
+}
