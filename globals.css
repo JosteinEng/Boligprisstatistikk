@@ -78,8 +78,8 @@
 }
 
 .city-image {
-  width: 800px;
-  height: 600px;
+  width: 850px;
+  height: 500px;
   border-top-left-radius: 50%;
   position: absolute;
   right: 0;
@@ -95,4 +95,52 @@
 .avg-price-style {
   display: inline-block;
   margin: 0;
+}
+
+/* Media query for screens smaller than 600px (typical breakpoint for phones) */
+
+@media only screen and (max-width: 1400px) {
+  .city-image {
+    width: 50%;
+    height: auto;
+    position: static;
+    border-top-left-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .city-image {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-top-left-radius: 0;
+  }
+  .city-div,
+  .city-div-style {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .city-name-h2 {
+    border-bottom: 3px solid #94d67d;
+    width: 100%;
+  }
+  .header {
+    padding: 5px;
+    margin-left: 0;
+    font-size: 25px;
+  }
+  .city-name,
+  .city-name-style {
+    font-size: 40px;
+  }
+  .avg-price-style {
+    font-size: 20px;
+  }
+  .avg-price-div {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .change-price-div {
+    font-size: 15px;
+  }
 }
